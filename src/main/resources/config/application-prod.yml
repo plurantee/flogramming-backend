@@ -33,8 +33,8 @@ spring:
       enabled: false
   data:
     mongodb:
-      uri: mongodb+srv://floranterapio:Melissa-0110@cluster0.z26ju.mongodb.net
-      database: flogramming
+      uri: mongodb+srv://${DB_USERNAME}:${DB_PASSWORD}@${DB_URI}
+      database: ${DB_NAME}
   mail:
     host: localhost
     port: 25
