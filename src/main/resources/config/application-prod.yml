@@ -33,7 +33,7 @@ spring:
       enabled: false
   data:
     mongodb:
-      uri: mongodb+srv://floranterapio:Melissa-0110@cluster0.z26ju.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+      uri: mongodb+srv://floranterapio:Melissa-0110@cluster0.z26ju.mongodb.net
       database: flogramming
   mail:
     host: localhost
