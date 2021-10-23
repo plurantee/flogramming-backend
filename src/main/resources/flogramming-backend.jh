@@ -1,0 +1,16 @@
+entity Projects {
+	name String,
+    description String,
+    photo String
+}
+
+entity Attributes {
+	key String,
+    value String
+}
+
+entity Products {
+	name String,
+    description String,
+    photo String
+}

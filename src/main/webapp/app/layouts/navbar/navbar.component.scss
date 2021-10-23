@@ -1,9 +1,14 @@
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
+@import '../../../content/scss/bootstrap-variables';
 
 /* ==========================================================================
 Navbar
 ========================================================================== */
+.flo-icon {
+  color: $primary-color;
+  display: inline-block;
+}
 
 .navbar-version {
   font-size: 0.65em;

@@ -108,6 +108,7 @@
   },
   "defaultProject": "flogramming",
   "cli": {
+    "analytics": false,
     "packageManager": "npm"
   }
 }

@@ -42,6 +42,11 @@
     "clientPackageManager": "npm",
     "clientThemeVariant": "",
     "enableGradleEnterprise": false,
-    "languages": ["en", "fr"]
+    "languages": ["en", "fr"],
+    "entities": ["Projects", "Attributes", "Products"],
+    "lastLiquibaseTimestamp": 1634963468000,
+    "herokuAppName": "flogramming",
+    "herokuDeployType": "git",
+    "herokuJavaVersion": "11"
   }
 }

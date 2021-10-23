@@ -19,6 +19,9 @@ export class HomeComponent implements OnInit, OnDestroy {
   constructor(private accountService: AccountService, private router: Router) {}
 
   ngOnInit(): void {
+    if (!this.accountService.isAuthenticated()) {
+      this.router.navigate(['/login']);
+    }
     this.accountService
       .getAuthenticationState()
       .pipe(takeUntil(this.destroy$))
